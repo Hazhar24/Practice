@@ -3,9 +3,7 @@ import Navbar from './component/navbar';
 import Card from './component/InformationCard';
 import DividingLine from './component/dividingLine';
 import FixedCard from './component/fixedCard';
-import { RiRadioButtonFill } from 'react-icons/ri'
-import { Link } from 'react-router-dom'
-import Footer from './component/foter';
+import Footer from './component/footer';
 
 
 export default function App() {
@@ -26,7 +24,7 @@ export default function App() {
             img1="https://flowbite.com/docs/images/people/profile-picture-4.jpg" />
         </div>
       </div>
-      <div className='text-xl flex justify-end fixed buttom-30 left-0 right-20'><Link to='/'><RiRadioButtonFill /></Link></div>
+      
       <div className='fixed bottom-0 left-0 right-0'>
         <Footer />
       </div>

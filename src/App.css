@@ -1,21 +1,22 @@
-h1 {
+p {
   width: 70%;
-  margin: .7em auto;
+  margin: 0.7em auto;
   overflow: hidden;
   text-align: center;
-  font-weight:300;
+  font-weight: 300;
   color: #fff;
 }
-h1:before, h1:after {
+#line:before,
+#line:after {
   content: "";
   display: inline-block;
   width: 50%;
-  margin: 0 .5em 0 -55%;
+  margin: 0 0.5em 0 -55%;
   vertical-align: middle;
   border-bottom: 1px solid;
 }
-h1:after {
-  margin: 0 -55% 0 .5em;
+#line:after {
+  margin: 0 -55% 0 0.5em;
 }
 span {
   display: inline-block;

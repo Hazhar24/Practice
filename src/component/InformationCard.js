@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom'
 export default function Card(props) {
     return (
         <div className='mt-5'>
-            <div className='hover:shadow-lg'>
-                <img src={props.img} className='w-56 h-52 md:w-48 md:h-44 ' alt="ss" />
-                <Link to={props.Link}><h2 className='flex justify-between items-center px-2'>{props.name}<RiRadioButtonFill /></h2></Link>
-            </div>
+            <img src={props.img} className='w-56 h-52 md:w-48 md:h-44 ' alt="ss" />
+            <Link to={props.Link}><a href='/' className='flex justify-between text-blue-500 items-center px-2'>{props.name}<RiRadioButtonFill /></a></Link>
         </div>
     )
 }
