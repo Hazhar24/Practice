@@ -24,7 +24,6 @@ export default function App() {
             img1="https://flowbite.com/docs/images/people/profile-picture-4.jpg" />
         </div>
       </div>
-      
       <div className='fixed bottom-0 left-0 right-0'>
         <Footer />
       </div>

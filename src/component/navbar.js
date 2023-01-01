@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import aa from '../assets/aa.jpg'
+import img from '../assets/img.jpg'
 import { AiFillApple } from 'react-icons/ai'
 import Navlinks from './Navlinks'
 import { TfiMenuAlt } from 'react-icons/tfi'
@@ -11,10 +11,10 @@ const Navbar = () => {
         <header>
             <div className='flex items-center justify-around font-medium border-b-2 border-sky-400 bg-gray-200'>
                 <div className='md:ml-36 lg:ml-56'>
-                    <a href='/' className='flex items-center float-left text-blue-600 text-lg'><AiFillApple /><Link to='/'>Login</Link></a>
+                    <Link to='/' className='flex items-center float-left text-blue-600 text-lg'><AiFillApple />Login</Link>
                 </div>
                 <div className='md:mx-auto'>
-                    <Link to='/'><img src={aa} alt="hh" className='h-10' /></Link>
+                    <Link to='/'><img src={img} alt="hh" className='h-10' /></Link>
                 </div>
                 <div className='hidden md:flex sm:pr-10 lg:mr-16'>
                     <Navlinks />
